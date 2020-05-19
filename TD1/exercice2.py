@@ -20,7 +20,7 @@ while ray <= 0:
     try:
         ray = int(input("\n==> VEUILLEZ DONNER LE RAYON DU CERCLE : \n"))
         error = False
-    except:
+    except ValueError:
         ray = -1
         error = True
         print(" !! ENTREZ UN NOMBRE ENTIER VALIDE !!")

@@ -17,7 +17,7 @@ while correctValue == False:
     try:
         a = int(input("\n==> ENTRER LE NOMBRE A : \n"))
         b = int(input("\n==> ENTRER LE NOMBRE B : \n"))
-    except:
+    except ValueError:
         print("!! VEUILLEZ ENTRER UN NOMBRE ENTIER VALIDE !!")
         a=0
         b = 0

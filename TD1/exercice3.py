@@ -27,7 +27,7 @@ def pickResistances():
             r2 = float(input("\n→ Veuillez Saisir la deuxième resistance: "))
             r3 = float(input("\n→ Veuillez Saisir la troisième resistance: "))
             valTester = True
-        except:
+        except ValueError:
             valTester = False
             print("!! SAISISSEZ DES NOMBRES REELS VALIDES !!")
             os.system("pause")
@@ -59,7 +59,7 @@ while loaded:
         try:
             choice = int(input("\n Veuillez faire un Choix:  "))
             choiceCondition = True
-        except:
+        except ValueError:
             print("! VEUILLEZ ENTRER UN NOMBRE ENTIER VALIDE !")
             os.system("pause")
             os.system("cls")
