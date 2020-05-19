@@ -1,7 +1,7 @@
 #coding:utf-8
 
 '''
-ENONCE : 
+ENONCE 1: 
 Ecrire un programme qui saisit deux entiers a et b, calcule et affiche le quotient entier, le reste de la division et le
 ratio (quotient réel).
 '''

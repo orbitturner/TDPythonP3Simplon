@@ -2,7 +2,7 @@
 
 '''
 ENONCE : 
-Exercice 3 :
+Exercice 3:
 Version 1 :
 Faire un programme qui saisit 3 résistances : R1, R2 et R3.
 Calculer et afficher la résistance en série : R1 + R2 +R3

@@ -1,7 +1,7 @@
 #coding:utf-8
 
 '''
-ENONCE : 
+ENONCE 2: 
 Ecrire un programme qui demande à l’utilisateur de donner le rayon d’un cercle et lui retourne sa surface et son
 périmètre.
 PI = 4 * arc tangente de 1. la fonction arc tangente est atan ex : atan(2).
