@@ -1,15 +1,13 @@
 #coding: utf-8
 
 '''
-ENONCE 17 : Faire un programme qui calcule le PGCD de deux nombres saisis au clavier en utilisant l'astuce
-suivante: soustrait le plus petit des deux entiers du plus grand jusqu'à ce qu'ils soient égaux.
-
+ENONCE 18: Faire un programme qui calcule et affiche le PPCM de deux entiers saisis au clavier.
 '''
 import os
 
 # STARTING OF THE PROGRAM
 os.system("cls")
-print("\n====================| EXERCICE 17 - TD1 |====================\n")
+print("\n====================| EXERCICE 18 - TD1 |====================\n")
 
 # RECUPERATION & CONTROLE DES VALEURS SAISIES
 correct = False
@@ -25,17 +23,23 @@ while not(correct):
         correct = True
 print("")
 
-# CALCULS
+# SAUVEGARDE DES VALEURS INITIALES
+c = a 
+d = b
+# CALCULS 
+print("\n===============================>RESULTAT :<===============================\n")
 while a != b:
     if a > b:
-        a = a - b
+        b = b + d
     else:
         if a < b:
-            b = b - a
+            a = a + c
+    chaine = ("\t\t\t{:4} || {}".format(a, b))
+    print(chaine.center(29," "))
+    # print("\t\t\t",a," || ",b)
 
 # AFFICHAGE
 print("\n===============================>RESULTAT :<===============================\n")
-print("\n\t\tLE PGCD DE CES DE CES DEUX NOMBRES EST: {0}\n".format(a))
+print("\n\t\tLE PPCM DE CES DE {} ET {} EST: {}\n".format(c, d, a))
 print("\n==========================================================================\n")
 os.system("pause")
-    
