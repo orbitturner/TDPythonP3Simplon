@@ -5,7 +5,7 @@
 
 Some exercises available in two versions are nested into one.
 
-## Examples
+## Statements
 
 - [EXERCICE 1](https://github.com/orbitturner/TDPythonP3Simplon/blob/master/TD1/exercice1.py) - Ecrire un programme qui saisit deux entiers a et b, calcule et affiche le quotient entier, le reste de la division et
 le ratio (quotient réel).
