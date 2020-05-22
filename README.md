@@ -11,6 +11,8 @@
 
 
 ______________________________________________________
-**Repos Members** : Mohamed GUEYE (OrbitTurner).
+**❤ WITH LOVE BY ❤** : Mohamed GUEYE (OrbitTurner).
 
-![Image of OT](https://github.com/orbitturner/challenger/blob/master/images/orbitturner1.png)
+![Image of OT](https://github.com/orbitturner/challenger/blob/master/images/orbitturner1.png?raw=true)
+
+<img src="https://github.com/orbitturner/challenger/blob/master/images/OrbitTurner_Gaming_GitHubBadge.png?raw=true" align="right" />
